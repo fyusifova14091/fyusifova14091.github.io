@@ -1,0 +1,164 @@
+body {
+    background: url(images/bg.png);
+    background-position: center;
+    background-attachment: fixed;
+    /* background-size:contain */
+    margin: 0;
+    padding: 2;
+  }
+  
+  /* Navigation */
+  
+  .head {
+    box-sizing: border-box;
+    background-color: #611b33;
+    overflow: auto;
+    padding: 38px 50px;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    outline-style: inset;
+    outline-color: #240a13b9;
+    outline-width: 1px;
+  }
+
+  /* .overlay {
+    width: 80%;
+    min-width: 30%;
+    margin: 3% auto;
+    display: block;
+    padding: 2%;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    text-align: center;
+  } */
+
+  .overlay {
+    width: 80%;
+    min-width: 30%;
+    margin: 3% auto;
+    display: block;
+    padding: 2%;
+    height: 205vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px;
+    text-align: center;
+    outline-style: inset;
+    outline-color: white;
+    outline-width: 1px;
+  }
+  
+  .logo a {
+    background-image: url("images/GenC.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 90px;
+    position: relative;
+    text-indent: -999999px;
+    top: -60px;
+    width: 150px;
+  }
+
+
+  /* .bg a {
+    background-image: url(images/Team.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 180px;
+    position: relative;
+    text-indent: -999999px;
+    top: -60px;
+    width: 300px;
+    height: 100px;
+  } */
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    color: #b6ccd7;
+    display: inline-block;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 20px 18px;
+    text-transform: uppercase;
+  }
+  
+  .active {
+    color: #b6ccd7;
+    font-family: 'Futura Std Condensed', futura;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 20px 18px;
+    text-transform: uppercase;
+    text-align: center;
+    
+  }
+
+  .head1 {
+    color: #240011c7;
+    font-family: 'Futura Std Condensed', futura;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 20px 18px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -60px;
+  }
+
+  .para {
+    color: #240011c7;
+    font-family: 'Arial', arial;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-transform: initial;
+    text-align: center;
+    position: relative;
+    top: 6px;
+  }
+
+  .para1 {
+    color: #240011c7;
+    font-family: 'Arial', arial;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0px 215px 0px 0px;
+    text-transform: initial;
+    text-align: left;
+    position: relative;
+    top: -175px;
+  }
+
+  .para2 {
+    color: #240011c7;
+    font-family: 'Arial', arial;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0px 0px 0px 215px;
+    text-transform: initial;
+    text-align: right;
+    position: relative;
+    top: -175px;
+  }
